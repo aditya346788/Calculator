@@ -1,0 +1,75 @@
+.container
+{
+    border: 1px solid black transparent;
+    width:70%;
+    border-right: 1px solid black;
+    
+    
+
+}
+.screen1
+{
+    
+    border: 1px solid black transparent;
+    padding: 2px 5px; 
+    border-bottom: 1px solid black;
+}
+input[type=text]
+{
+    
+    border: none;
+    padding: 15px 10px; 
+    width: 97.7%; 
+    font-size: 30px;
+    color: black;
+    text-align: right;
+}
+#screendisp input[type=text]
+{
+    
+    border: none;
+    padding: 5px 5px; 
+    width: 97.7%; 
+    font-size: 20px;
+    color: black;
+    text-align: right;
+}
+.gridclass
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    
+}
+.grid-itmes
+{
+    text-align: center;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 26px 50px;
+    font-size: 20px;
+    margin: 1.2px;
+    border-radius: 2px;
+    cursor: pointer;
+   transition-duration: 0.4s;
+
+
+}
+.grid-itmes:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button
+{
+    border: none;
+    background-color: none;
+    
+} 
+/* h2
+{
+    margin-left: 920px;
+    margin-top: 0;
+    padding: 0;
+    text-decoration: none;
+    position: relative;
